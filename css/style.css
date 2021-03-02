@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(176, 240, 219);
+}
+form,#res{
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+}
+img{
+    width: 15%;
+}
+.fieldCutlet>label{
+    display: inline-block;
+    text-align: left;
+    width: 19%;
+}
+.fieldCutlet>label>img{
+    width: 75%;
+}
+.fieldCutlet>label>input[type=number]{
+    display: block;
+    width: 70%;
+}

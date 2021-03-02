@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form name="f1">
+        <fieldset>
+            <legend>SIZE</legend>
+            <label>
+                <img src="images/large.jpg" alt="">
+                <input type="radio" name="size" value="large" checked>
+            </label>
+            <label>
+                <img src="images/small.jpg" alt="">
+                <input type="radio" name="size" value="small">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>ADD</legend>
+            <label>
+                <img src="images/cheese.jpg" alt="">
+                <input type="checkbox" name="add" value="cheese" checked>
+            </label>
+            <label>
+                <img src="images/potato.jpg" alt="">
+                <input type="checkbox" name="add" value="potato">
+            </label>
+            <label>
+                <img src="images/salad.jpg" alt="">
+                <input type="checkbox" name="add" value="salad">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>TOPP</legend>
+            <label>
+                <img src="images/mayonez.jpg" alt="">
+                <input type="checkbox" name="topp" value="mayonez">
+            </label>
+            <label>
+                <img src="images/spice.jpg" alt="">
+                <input type="checkbox" name="topp" value="spice">
+            </label>
+                
+        </fieldset>
+        <fieldset class="fieldCutlet">
+            <legend>CUTLET</legend>
+            <label>
+                <img src="images/chicken.jpg" alt="" title="chicken">
+                <input type="radio" name="cutlet" value="chicken" checked>
+                <input type="number" name="cutletNum" id="" checked>
+            </label>
+            <label>
+                <img src="images/mashrooms.jpg" alt="" title="mushrooms">
+                <input type="radio" name="cutlet" value="mushrooms">
+                <input type="number" name="cutletNum" id="">
+            </label>
+            <label>
+                <img src="images/pork.jpg" alt="" title="pork">
+                <input type="radio" name="cutlet" value="pork" >
+                <input type="number" name="cutletNum" id="">
+            </label>
+            <label>
+                <img src="images/fish.jpg" alt="" title="fish">
+                <input type="radio" name="cutlet" value="fish">
+                <input type="number" name="cutletNum" id="">
+            </label>
+        </fieldset>
+        <input type="submit" name="calc" value="Calc">
+    </form>
+    <div id="res">price & kcal</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
